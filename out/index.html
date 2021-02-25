@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="/out/tailwind.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="bg-red-100">
+    <div class="md:grid md:grid-cols-2 md:h-screen">
+      <div class="col-span-1">
+        <section class="md:px-24 md:pt-12">
+          <nav class="flex justify-start items-center pl-6 py-6">
+            <img src="images/logo.svg" alt="" />
+          </nav>
+          <div class="object-cover md:hidden">
+            <img class="w-full" src="images/hero-mobile.jpg" alt="" />
+          </div>
+          <section
+            class="text-center md:text-left px-8 tracking-widest pt-16 pb-8 flex-1"
+          >
+            <h1 class="text-5xl uppercase text-red-soft3">We're</h1>
+            <h3 class="text-5xl uppercase text-gray-900 pb-6">coming soon</h3>
+            <p class="text-red-soft3 tracking-normal">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+          </section>
+        </section>
+        <div
+          class="border border-red-soft3 hover:border-red-soft2 mx-12 rounded-full grid grid-cols-5 bg-white mb-48 md:w-2/3 md:mx-auto my-0"
+        >
+          <input
+            class="col-span-4 border border-r-0 rounded-l-full focus:outline-none pl-6"
+            type="text"
+            placeholder="Email Address"
+          />
+          <button
+            class="bg-red-soft2 hover:bg-red-soft3 py-4 md:py-2 p col-span-1 rounded-full focus:outline-none"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-4 mx-auto my-0"
+              viewBox="0 0 12 20"
+            >
+              <defs />
+              <path
+                fill="none"
+                stroke="#FFF"
+                stroke-width="2"
+                d="M1 1l8.836 8.836L1 18.671"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="md:grid md:col-span-1 hidden">
+        <img
+          class="w-full h-screen object-cover"
+          src="images/hero-desktop.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
+</html>
